@@ -47,6 +47,10 @@ a {
 .mdl-menu__item {
     font-weight: 300;
 }
+.search-input {
+    box-shadow: none;
+    -webkit-appearance: none;
+}
 /****************/
 /* Local_Search */
 /****************/
