@@ -10,4 +10,4 @@ node_modules
 
 .directory
 
-source/img/_*
+source/img/custom_*
