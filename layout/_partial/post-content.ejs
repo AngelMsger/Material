@@ -10,7 +10,7 @@
                             <%- theme.license %>
                         <% } %></strong>
                         <br>
-                        <strong><%- __('post.permalink') %></strong><a href="<%= page.permalink %>"><%= page.permalink %></a>
+                        <strong><%- __('post.permalink') %></strong><a href="<%= page.permalink %>"><%= decodeURI(page.permalink) %></a>
                     </p>
                 </blockquote>
         <% } %>
@@ -31,7 +31,7 @@
                             <%- theme.license %>
                         <% } %>
                         <br>
-                        <%- __('post.permalink') %> <%= page.permalink %>
+                        <%- __('post.permalink') %> <%= decodeURI(page.permalink) %>
                     </p>
                 </blockquote>
             <% } %>
