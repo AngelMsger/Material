@@ -103,7 +103,7 @@ copyright_since:
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
-#       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
+#       '<a href="http://beian.miit.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
 footer_text:
 
 # Qrcode for redirect at other device
