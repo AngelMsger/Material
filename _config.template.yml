@@ -29,7 +29,7 @@ url:
 
 # Schemes
 scheme: Paradox
-#scheme: Isolation
+# scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
@@ -62,8 +62,8 @@ thumbnail:
 #        color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
-    purecolor: "#F5F5F5"
-    #bgimg: "/img/bg.png"
+    # purecolor: "#F5F5F5"
+    bgimg: "/img/bg.jpg"
     bing:
         enable: false
         parameter:
@@ -71,14 +71,14 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
-    daily_pic: "/img/daily_pic.png"
+    avatar: "/img/avatar.jpg"
+    daily_pic: "/img/daily_pic.gif"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
-        #upyun_logo:
-            #link: "https://www.upyun.com/"
-            #src: "/img/upyun_logo.svg"
+        #qiniu_logo:
+            #link: "https://www.qiniu.com/"
+            #src: "/img/qiniu_logo.png"
 
 # Custom Fonts
 #    family: the font-family which will be used in the theme
@@ -211,7 +211,7 @@ sidebar:
         icon: chrome_reader_mode
         divider: false
     pages:
-        #About:
+        # About:
             #link: "/about"
             #icon: person
             #divider: false
